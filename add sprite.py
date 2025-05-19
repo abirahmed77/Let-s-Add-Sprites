@@ -54,12 +54,10 @@ screen = pygame.display.set_mode((500, 400))
 pygame.display.set_caption("ADI")
 bg_color = BLUE
 screen.fill(bg_color)
-hi
 exit = False
 clock = pygame.time.Clock()
 
 while not exit:
-    
   for event in pygame.event.get():
     if event.type == pygame.QUIT:
       exit = True
